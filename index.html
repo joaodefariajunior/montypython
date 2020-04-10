@@ -11,8 +11,8 @@
 </head>
 
 <body>
-        <form id="quiz" name="quiz">
-            <h1>Monty Python and the Holy Grail</h1>
+    <form id="quiz" name="quiz">
+        <h1>Monty Python and the Holy Grail</h1>
         <h1>Test your Knowledge about this masterpiece!</h1>
         <p class="questions">The movie starts with a famous knight,what´s his name?</p>
         <input type="radio" id="mc" name="question1" value="Henry"> Henry the VIII<br>
@@ -62,12 +62,14 @@
         <input type="radio" id="mc" name="question7" value="Witch"> she has a pointy hat!<br>
         <input type="radio" id="mc" name="question7" value="Left"> She's left-handed<br>
 
-        <p class="questions">Sir Galahad is led by a grail-shaped beacon to Castle Anthrax,what is peculiar about it?</p>
+        <p class="questions">Sir Galahad is led by a grail-shaped beacon to Castle Anthrax,what is peculiar about it?
+        </p>
 
-        <input type="radio" id="mc" name="question8" value="Anthrax"> 160 brunettes and blondes,between 16 and 19/2 years old<br>
+        <input type="radio" id="mc" name="question8" value="Anthrax"> 160 brunettes and blondes,between 16 and 19/2
+        years old<br>
         <input type="radio" id="mc" name="question8" value="Gold"> Gold , lots of Gold!<br>
         <input type="radio" id="mc" name="question8" value="Grail"> The Holy Grail!<br>
-        <input type="radio" id="mc" name="question8" value="Left"> a  Portal<br>
+        <input type="radio" id="mc" name="question8" value="Left"> a Portal<br>
 
         <p class="questions">Where the film was shot?</p>
 
@@ -117,16 +119,17 @@
         <input type="radio" id="mc" name="question15" value="Gate"> Battery Ram<br>
         <input type="radio" id="mc" name="question15" value="Cannon"> Cannons<br>
         <input type="radio" id="mc" name="question15" value="Wall"> Climb the walls<br>
-
         <input id="button" type="button" value="I'm finished!" onclick="check();">
 
 
     </form>
 
     <div id="after_submit">
+
         <p id="number_correct"></p>
         <p id="message"></p>
         <img id="picture">
+
     </div>
 
 </html>

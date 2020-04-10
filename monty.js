@@ -17,7 +17,13 @@ function check() {
     let question15 = document.quiz.question15.value;
     let correct = 0;
 
-
+    window.onload = function(){
+        document.getElementById('close').onclick = function(){
+            this.parentNode.parentNode.parentNode
+            .removeChild(this.parentNode.parentNode);
+            return false;
+        };
+    };
     if (question1 === "Arthur") {
         correct++;
     }
