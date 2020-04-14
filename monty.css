@@ -140,8 +140,8 @@ body {
     #after_submit {
         visibility: hidden;
         background: #829dca;
-        margin-left:8%;
-        margin-top:2%;
+        margin-left:3%;
+        margin-top:5%;
         width: 350px;
         height: 350px;
         border-radius: 20px;
