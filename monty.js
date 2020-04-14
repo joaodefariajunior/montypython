@@ -82,7 +82,7 @@ function check() {
         score = 1;
     }
 
-    if (correct >10 && correct=== 15) {
+    if (correct >10) {
         score = 0;
     }
 
